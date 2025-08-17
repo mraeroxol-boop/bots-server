@@ -14,7 +14,7 @@ function createBot(username) {
     host: serverIP,
     port: serverPort,
     username: username
-    version: '1.21.7'
+    version: '1.21.1'
   });
 
   bot.once('spawn', () => {
