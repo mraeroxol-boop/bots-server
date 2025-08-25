@@ -24,7 +24,7 @@ function createBot(username) {
     setInterval(() => {
       if (!bot.entity || !bot.entity.position) return;
 
-      bot.chat("to ignore us type '/ignore manoshiik,/ignore pagol,/ignore mata_nosto'.we are bots.we make this server 24/7");
+      bot.chat("i wanna run away");
 
       bot.setControlState('forward', true);
 
