@@ -5,8 +5,8 @@ const app = express()
 const port = process.env.PORT || 3000 // Render auto-assigns
 
 // ===== ENVIRONMENT VARIABLES =====
-const serverIP = process.env.SERVER_IP || 'localhost'
-const serverPort = parseInt(process.env.SERVER_PORT) || 25565
+const serverIP = process.env.SERVER_IP || 'first-those.gl.joinmc.link'
+const serverPort = parseInt(process.env.SERVER_PORT) || 19100
 const usernames = (process.env.BOT_NAMES || 'pagol,manoshik,mata_nosto').split(',')
 
 // ===== CREATE BOT FUNCTION =====
